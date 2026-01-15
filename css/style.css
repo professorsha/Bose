@@ -3,13 +3,13 @@ body {
 }
 header {
   aspect-ratio: 16/9;
-  background-image: url(../images/header.png);
+  background-image: url(images/header.png);
   background-size: cover;
   background-position: top center;
 }
 footer {
   height: 460px;
-  background-image: url(../images/footer.jpg);
+  background-image: url(images/footer.jpg);
   background-size: cover;
   background-position: top center;
 }
