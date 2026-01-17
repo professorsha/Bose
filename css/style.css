@@ -1,15 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 body {
+  font-family: "Inter", sans-serif;
   margin: 0;
 }
+.menu {
+  background-color: #e8eff9;
+  padding: 64px 120px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 64px;
+}
+.menu-close {
+  height: 24px;
+  width: 24px;
+  display: block;
+  background-image: url(../images/icon-close.svg);
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #292929;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  cursor: default;
+}
+h1 {
+  margin: 0;
+  margin-top: 40px;
+  font-weight: 800;
+  font-style: Italic;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+}
+h2 {
+  margin: 0;
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
 header {
-  aspect-ratio: 16/9;
-  background-image: url(images/header.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 64px 120px;
+  /* aspect-ratio: 16/9; */
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url(../images/header.png);
   background-size: cover;
   background-position: top center;
+  margin-bottom: 60px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-button {
+  height: 24px;
+  width: 24px;
+  display: block;
+  background-image: url(../images/icon-burger-menu.svg);
+}
+.menu-button:hover {
+  background-image: url(../images/icon-burger-menu-hover.svg);
+}
+.container {
+  padding: 60px 120px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.list-item {
+  list-style: none;
+}
+.list-categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 footer {
   height: 460px;
-  background-image: url(images/footer.jpg);
+  background-image: url(../images/footer.jpg);
   background-size: cover;
   background-position: top center;
 }

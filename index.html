@@ -4,11 +4,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header></header>
-    <main>Hello 123</main>
+    <div class="menu">
+      <div class="menu-top">
+        <img src="images/logo.png" alt="Bose logo" />
+        <a href="" class="menu-close"></a>
+      </div>
+      <nav>
+        <a href="" class="nav-link">Home</a>
+        <a href="#recommended" class="nav-link">recommended</a>
+        <a href="#categories" class="nav-link">Categories</a>
+        <a href="#buy" class="nav-link">How to buy</a>
+      </nav>
+    </div>
+    <header>
+      <div class="header-top">
+        <img src="images/logo.png" alt="Bose logo" />
+        <a href="" class="menu-button"></a>
+      </div>
+      <div class="header-bottom">
+        <img src="images/sound-waves.png" alt="sound-waves" />
+        <h1>The world shades.<br />Your music shines.</h1>
+      </div>
+    </header>
+
+    <main>
+      <section id="recommended">
+        <div class="container">
+          <h2>Recommended</h2>
+          <ul class="list">
+            <li class="list-item">
+              <div>
+                <img src="images/recommended-1.png" alt="" />
+                <div>
+                  <p>Bose portable Smart speaker</p>
+                  <span>Smart home</span><span>$ 399.00</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div>
+                <img src="images/recommenend-2.png" alt="" />
+                <div>
+                  <p>SoundLink Flex Bluetooth speaker</p>
+                  <span>Portable bluetooth</span><span>$ 149.00</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <div>
+                <img src="images/recommenend-3.png" alt="" />
+                <div>
+                  <p>SoundLink Color Bluetooth speaker II</p>
+                  <span>Portable bluetooth</span><span>$ 129.00</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="categories">
+        <div class="container">
+          <h2>Browse Bose <br />products by category</h2>
+          <ul class="list-categories">
+            <li><img src="images/category-1-wide.jpg" alt="" /></li>
+            <li><img src="images/category-2-square.jpg" alt="" /></li>
+          </ul>
+          <span>Headphones & earbuds</span>
+          <ul class="list-categories">
+            <li><img src="images/category-3-wide.jpg" alt="" /></li>
+            <li><img src="images/category-4-square.jpg" alt="" /></li>
+          </ul>
+          <span>Speakers</span>
+          <ul class="list-categories">
+            <li><img src="images/category-5-square.jpg" alt="" /></li>
+            <li><img src="images/category-6-wide.jpg" alt="" /></li>
+          </ul>
+          <span>Audio sunglasses</span>
+        </div>
+      </section>
+      <section id="buy">
+        <div class="container"><h2>Why buy direct from Bose</h2></div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
